@@ -1,0 +1,336 @@
+T_while T_identifier T_biggerthan T_identifier T_identifier T_equal T_qutation T_string T_qutation T_semicolon T_identifier T_equal T_identifier T_add T_parent T_identifier T_add T_identifier T_parent T_semicolon T_error T_error T_error T_identifier T_error T_error T_identifier int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><program has error in line 7>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;><program has error in line 9><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,">int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><program has error in line 7>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;><program has error in line 9><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,">int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><program has error in line 7>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;><program has error in line 9><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,">int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><program has error in line 7>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;><program has error in line 9><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,">int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><program has error in line 7>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;><program has error in line 9><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,">int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><program has error in line 7>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;><program has error in line 9><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,">int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><program has error in line 7>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,">int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,">int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><program has error in line 11>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><program has error in line 11>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;>elseif<T_identifier,b><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;>elseif<T_identifier,b><T_decimalnumber,1><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;>elseif<T_identifier,b><T_operator,>=><T_decimalnumber,1><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int<T_identifier,a><T_operator,=><T_decimalnumber,0><T_semicolon,;>int<T_identifier,b><T_operator,=><T_decimalnumber,4><T_semicolon,;>while<T_identifier,a><T_operator,<><T_identifier,b><T_identifier,c><T_operator,=><T_identifier,a><T_operator,*><T_identifier,b><T_semicolon,;><program has error in line 6><T_identifier,bc34><T_operator,=><T_decimalnumber,67.72><T_semicolon,;>string<T_identifier,b><T_operator,=><T_qutation,">this is good<T_qutation,"><T_semicolon,;>float<T_identifier,hb78><T_operator,=><T_decimalnumber,45.78><T_semicolon,;><program has error in line 10><T_identifier,beta><T_operator,=><T_qutation,">asdsa<T_qutation,"><T_semicolon,;>int a=0;
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+while a<b 
+
+while a<b 
+
+while a<b 
+
+while a<b 
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+bc34=67.72;
+
+bc34=67.72;
+
+bc34=67.72;
+
+bc34=67.72;
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+  else if b>=1
+
+  else if b>=1
+
+  else if b>=1
+
+  else if b>=1
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+while a<b 
+
+while a<b 
+
+while a<b 
+
+while a<b 
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+bc34=67.72;
+
+bc34=67.72;
+
+bc34=67.72;
+
+bc34=67.72;
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+  else if b>=1
+
+  else if b>=1
+
+  else if b>=1
+
+  else if b>=1
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+while a<b 
+
+while a<b 
+
+while a<b 
+
+while a<b 
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+bc34=67.72;
+
+bc34=67.72;
+
+bc34=67.72;
+
+bc34=67.72;
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+  else if b>=1
+
+  else if b>=1
+
+  else if b>=1
+
+  else if b>=1
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int a=0;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+int b=4;
+
+while a<b 
+
+while a<b 
+
+while a<b 
+
+while a<b 
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+	c=a*b;
+
+bc34=67.72;
+
+bc34=67.72;
+
+bc34=67.72;
+
+bc34=67.72;
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+string b="this is good";
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+float hb78=45.78;
+
+  else if b>=1
+
+  else if b>=1
+
+  else if b>=1
+
+  else if b>=1
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+	beta="asdsa";
+
+	beta="asdsa";
+

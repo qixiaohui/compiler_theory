@@ -1,0 +1,21 @@
+int a=0;
+int b=4;
+while a==b 
+	c=a+b;
+
+43sd
+bc34=67.72;
+string b="this is good";
+float hb78=45.78;
+  else if b>=1
+
+b=a*(z+c);
+	beta="asdsa";
+
+
+
+
+
+
+
+
