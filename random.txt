@@ -1,16 +1,49 @@
-int a=0;
-int b=4;
-while a==b 
-	c=a+b;
+program parser is
+integer a[4];
+integer b;
+integer c;
+integer d;
+integer e;
+global integer x;
+global integer y;
+float v;
+procedure parser integer c in, integer d in,integer o out,integer x out)
+integer a;
+integer b;
+begin
+a:=-3;
+b:=-4; //comment
+o:=c+d; //asdjaksjs
+x:=a+e;//asfaf
+if(e<15)
+then 
+c:=c+1;
+d:=d+1;
+e:=e+1;
+end if
+return;
+end procedure;
+begin
+e:=10;
+x:=10;
+a:=-2;
+b:=-5;
+c:=6;
+d:=7;
+y:=c;
+parser (a, b,x,y);
+x := 4+(3+2);
+x:=1;
+y:=1;
+for(x<5;x:=x+1)
+y:=y+1;
+b:=0&1;
+c:=0|1;
+end for
+a [10] :=3;
+v:=3.5;
+end program;
 
-43sd
-bc34=67.72;
-string b="this is good";
-float hb78=45.78;
-  else if b>=1
-
-b=a*(z+c);
-	beta="asdsa";
 
 
 
