@@ -6,7 +6,9 @@ def scanner(tokenstr):
     global linenumber
     global output
     global word
+    global tokens
     global j
+    float_sign=0
     j=0
     linenumber+=1
     increment(tokenstr)
@@ -19,54 +21,71 @@ def scanner(tokenstr):
             if nextchar:
                 increment(tokenstr)
             if currentchar =='.':
+                float_sign=1
                 word+='.'
                 while nextchar and nextchar.isdigit():
                     word+=nextchar
                     increment(tokenstr)
                 if nextchar and nextchar not in [' ','\n',';','=','!','%','^','*','(',')','/','>','<','+','-']:
-                    return error(linenumber)
+                    error(linenumber)
                 else:
                     increment(tokenstr)
             elif currentchar not in [' ','\n',';','=','!','%','^','*','(',')','/','>','<','+','-',None]:
-                return error(linenumber)
-            token=('T_decimalnumber',word)
+                error(linenumber)
+            if float_sign==0:
+                token=('T_decimalnumber',word,linenumber)
+            elif float_sign==1:
+                token=('T_floatnumber',word,linenumber)
             tokens.append(token)
         elif currentchar==' ':
-            increment(tokenstr)
+            word=' '
+            token=('T_whitespace',word,linenumber)
+            tokens.append(token)
+            if nextchar:
+                increment(tokenstr)
         elif currentchar.isalpha():
             word=currentchar
             while nextchar and nextchar.isalpha():
                 word+=nextchar
                 increment(tokenstr)
-            if word in ['string','int','bool','float','global','in','out','while','if','then','else','case','for','and','or','not','program','procedure','begin','return','end']:
-                token=('T_keyword',word)
-                tokens.append(token)
-                increment(tokenstr)
-            elif nextchar and nextchar.isdigit():
+                #increment(tokenstr)
+            if nextchar and nextchar.isdigit():
                 increment(tokenstr)
                 word+=currentchar
                 while nextchar and nextchar.isalnum():
                     increment(tokenstr)
                     word+=currentchar
-                token=('T_identifier',word)
+                token=('T_identifier',word,linenumber)
                 tokens.append(token)
-            elif nextchar and nextchar in ['@','#','$','&','(']:
+            elif nextchar and nextchar=='_':
+                increment(tokenstr)
+                word+=currentchar
+                while nextchar and (nextchar.isalnum() or nextchar=='_'):
+                    increment(tokenstr)
+                    word+=currentchar
+                token=('T_identifier',word,linenumber)
+                tokens.append(token)
+            elif nextchar and nextchar in ['@','#','$','&']:
                 print nextchar
-                return error(linenumber)
+                error(linenumber)
+                if nextchar:
+                    increment(tokenstr)
+            elif word in ['string','integer','bool','float','global','in','out','while','if','then','else','case','for','and','or','not','program','procedure','begin','return','end','is','true','false','program']:
+                token=('T_keyword',word,linenumber)
+                tokens.append(token)                    
             else:
-                token=('T_identifier',word)
+                token=('T_identifier',word,linenumber)
                 tokens.append(token)
             if nextchar:
-                increment(tokenstr)
-        elif currentchar =='\\':
-            if currentchar=='\\':
-                return 
-            if nextchar:
-                increment(tokenstr)
+                if currentchar!='(':
+                    increment(tokenstr)
         elif currentchar in ['\n','\t','\r']:
+            word=' '
+            token=('T_whitespace',word,linenumber)
+            tokens.append(token)
             if nextchar:
                 increment(tokenstr)
-        elif currentchar in ['=','^','%','*','/','+','-','>','<']:
+        elif currentchar in ['=','^','%','*','/','+','-','>','<','&','|']:
             word=currentchar
             if nextchar and currentchar in ['>','<','=']:
                 increment(tokenstr)
@@ -74,10 +93,12 @@ def scanner(tokenstr):
                     word+='='
                     if nextchar:
                         increment(tokenstr)
-                token=('T_operator',word)
+                token=('T_operator',word,linenumber)
                 tokens.append(token)
+            elif nextchar=='/':
+                return
             else:
-                token=('T_operator',word)
+                token=('T_operator',word,linenumber)
                 tokens.append(token)
                 if nextchar:
                     increment(tokenstr)
@@ -86,20 +107,20 @@ def scanner(tokenstr):
                 word=currentchar
                 increment(tokenstr)
                 if currentchar=='=':
-                    word+=currentword
-                    token=('T_operator',word)
+                    word+=currentchar
+                    token=('T_operator',word,linenumber)
                     tokens.append(token)
                     if nextchar:
                         increment(tokenstr)       
         elif currentchar=='(':
             word='('
-            token=('T_lparen',word)
+            token=('T_lparen',word,linenumber)
             tokens.append(token)
             if nextchar:
                 increment(tokenstr)
         elif currentchar==')':
             word=')'
-            token=('T_rparen',word)
+            token=('T_rparen',word,linenumber)
             tokens.append(token)
             if nextchar:
                 increment(tokenstr)
@@ -110,15 +131,37 @@ def scanner(tokenstr):
                 increment(tokenstr)
             if nextchar=='"':
                 word+='"'
-                token=('T_string',word)
+                token=('T_string',word,linenumber)
                 tokens.append(token)
             else:
-                return error(linenumber)
+                error(linenumber)
+                if nextchar:
+                    increment(tokenstr)
             if nextchar:
                 increment(tokenstr)
                 increment(tokenstr)
         elif currentchar==';':
-            token=('T_semicolon',';')
+            token=('T_semicolon',';',linenumber)
+            tokens.append(token)
+            if nextchar:
+                increment(tokenstr)
+        elif currentchar==',':
+            token=('T_comma',',',linenumber)
+            tokens.append(token)
+            if nextchar:
+                increment(tokenstr)
+        elif currentchar=='[':
+            token=('T_lbracket','[',linenumber)
+            tokens.append(token)
+            if nextchar:
+                increment(tokenstr)
+        elif currentchar==']':
+            token=('T_rbracket',']',linenumber)
+            tokens.append(token)
+            if nextchar:
+                increment(tokenstr)
+        else:
+            token=('T_unknown',currentchar,linenumber)
             tokens.append(token)
             if nextchar:
                 increment(tokenstr)
@@ -133,8 +176,14 @@ def increment(tokenstr):
     if j==len(tokenstr)-1:
         nextchar=None
     else:
-        currentchar=tokenstr[j]
-        nextchar=tokenstr[j+1]
+        if tokenstr[j].isupper():
+            currentchar=tokenstr[j].lower()#in case the char is in higher case
+        else:
+            currentchar=tokenstr[j]
+        if tokenstr[j+1].isupper():
+            nextchar=tokenstr[j+1].lower()#in case upper case
+        else:
+            nextchar=tokenstr[j+1]
     j+=1
 
 def error(linenumber):
